@@ -1,0 +1,93 @@
+body
+{
+	background: #333;
+}
+
+#gameName
+{
+	color: #fff;
+
+	font-family: Courier;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+#map
+{
+	display: block;
+	background: #fff;
+	margin: 30px auto 0px;
+}
+
+#player
+{
+	display: block;
+	margin: -500px auto 0px;/*внешние отступы: top right bottom left */
+}
+
+#enemy
+{
+	display: block;
+	margin: -500px auto 0px;
+}
+
+#upBtn
+{
+margin: -500px 10px 0px 100px; /*внешние отступы: top right bottom left */
+padding: 10px; 
+min-height: 50px; /*минимальная высота блока*/
+width: 50px;
+text-align: right;
+float: left; /*обтекание*/
+font-size: 14px;
+background-color: #98FB98; 
+}
+
+#fireBtn
+{
+margin: -440px 10px 0px 100px; /*внешние отступы: top right bottom left */
+padding: 10px; 
+min-height: 50px; /*минимальная высота блока*/
+width: 50px;
+text-align: right;
+float: left; /*обтекание*/
+font-size: 14px;
+background-color: #98FB98; 
+}
+
+#downBtn
+{
+margin: -380px 10px 0px 100px; /*внешние отступы: top right bottom left */
+padding: 10px; 
+min-height: 50px; /*минимальная высота блока*/
+width: 50px;
+text-align: right;
+float: left; /*обтекание*/
+font-size: 14px;
+background-color: #98FB98; 
+}
+
+#startBtn
+{
+margin: -320px 10px 0px 100px; /*внешние отступы: top right bottom left */
+padding: 10px; 
+min-height: 50px; /*минимальная высота блока*/
+width: 50px;
+text-align: right;
+float: left; /*обтекание*/
+font-size: 14px;
+background-color: red; 
+}
+
+#stopBtn
+{
+margin: -260px 10px 0px 100px; /*внешние отступы: top right bottom left */
+padding: 10px; 
+min-height: 50px; /*минимальная высота блока*/
+width: 50px;
+text-align: right;
+float: left; /*обтекание*/
+font-size: 14px;
+background-color: yellow; 
+}
