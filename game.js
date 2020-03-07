@@ -22,13 +22,13 @@ var gameWidth=800;
 var gameHeight=500;
 
 var background=new Image();
-background.src="https://Aliibnabdul.github.io/testSite/img/bg.png"
+background.src="img/bg.png"
 
 var tiles=new Image();
-tiles.src="https://Aliibnabdul.github.io/testSite/img/tiles.bmp"
+tiles.src="img/tiles.bmp"
 
 var kotikEnemy=new Image();
-kotikEnemy.src="https://Aliibnabdul.github.io/testSite/img/kotik.gif"
+kotikEnemy.src="img/kotik.gif"
 
 var player; //создаем объект
 var enemy;
